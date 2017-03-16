@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59999" started-at="2017-03-14T15:51:08Z" finished-at="2017-03-14T15:52:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59999" started-at="2017-03-14T15:51:08Z" finished-at="2017-03-14T15:52:08Z">
+      <class name="Bingo_Core_SUITE.LoginTest">
+        <test-method status="PASS" signature="initLogs()[pri:0, instance:Bingo_Core_SUITE.LoginTest@50d0686]" name="initLogs" is-config="true" duration-ms="27" started-at="2017-03-14T15:51:08Z" finished-at="2017-03-14T15:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initLogs -->
+        <test-method status="PASS" signature="logintest(java.util.Hashtable)[pri:0, instance:Bingo_Core_SUITE.LoginTest@50d0686]" name="logintest" duration-ms="8230" started-at="2017-03-14T15:51:08Z" data-provider="Bingo_Core_SUITEDataProvider" finished-at="2017-03-14T15:51:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mmm12, Password=MNNH$1, Runmode=Y, Expected_Result=FAILURE, Browser=Mozilla, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Bingo_Core_SUITE.LoginTest@50d0686]" name="close" is-config="true" duration-ms="731" started-at="2017-03-14T15:51:16Z" finished-at="2017-03-14T15:51:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintest(java.util.Hashtable)[pri:0, instance:Bingo_Core_SUITE.LoginTest@50d0686]" name="logintest" duration-ms="17581" started-at="2017-03-14T15:51:17Z" data-provider="Bingo_Core_SUITEDataProvider" finished-at="2017-03-14T15:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=NNNNNNNNNNNNNNNNNNNNN1, Password=GGGGGGGGGGGGGGGGGGGG1, Runmode=Y, Expected_Result=FAILURE, Browser=Chrome, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Bingo_Core_SUITE.LoginTest@50d0686]" name="close" is-config="true" duration-ms="754" started-at="2017-03-14T15:51:35Z" finished-at="2017-03-14T15:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintest(java.util.Hashtable)[pri:0, instance:Bingo_Core_SUITE.LoginTest@50d0686]" name="logintest" duration-ms="12276" started-at="2017-03-14T15:51:36Z" data-provider="Bingo_Core_SUITEDataProvider" finished-at="2017-03-14T15:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=Noblebug228, Password=Bola123, Runmode=Y, Expected_Result=FAILURE, Browser=Chrome, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Bingo_Core_SUITE.LoginTest@50d0686]" name="close" is-config="true" duration-ms="790" started-at="2017-03-14T15:51:48Z" finished-at="2017-03-14T15:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="logintest(java.util.Hashtable)[pri:0, instance:Bingo_Core_SUITE.LoginTest@50d0686]" name="logintest" duration-ms="18527" started-at="2017-03-14T15:51:49Z" data-provider="Bingo_Core_SUITEDataProvider" finished-at="2017-03-14T15:52:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=BingoTest3, Password=Bola123, Runmode=Y, Expected_Result=SUCCESS, Browser=Mozilla, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Bingo_Core_SUITE.LoginTest@50d0686]" name="close" is-config="true" duration-ms="508" started-at="2017-03-14T15:52:07Z" finished-at="2017-03-14T15:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Bingo_Core_SUITE.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

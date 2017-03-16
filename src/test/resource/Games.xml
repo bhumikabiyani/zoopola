@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Games">
+
+<test name="BingoGamesCategoryTest">
+    <classes>
+        <class name="Games.BingoGamesCategoryTest" ></class>  
+    </classes>
+</test>
+<test name="GamesCategoryTest">
+    <classes>
+        <class name="Games.BingoGamesCategoryTest" ></class>  
+    </classes>
+</test>
+</suite>
+

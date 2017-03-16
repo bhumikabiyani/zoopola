@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cashier">
+
+<test name="AccountTest">
+    <classes>
+        <class name="Cashier.AccountTest" ></class>  
+    </classes>
+</test>
+<test name="Deposit">
+    <classes>
+        <class name="Cashier.Deposit" ></class>  
+    </classes>
+</test>
+</suite>
+

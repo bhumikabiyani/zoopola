@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Games]">
+  <test name="BingoGamesCategoryTest(failed)">
+    <classes>
+      <class name="Games.BingoGamesCategoryTest">
+        <methods>
+          <include name="AllBingotest"/>
+          <include name="initLogs"/>
+          <include name="close"/>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Games.BingoGamesCategoryTest -->
+    </classes>
+  </test> <!-- BingoGamesCategoryTest(failed) -->
+  <test name="GamesCategoryTest(failed)">
+    <classes>
+      <class name="Games.BingoGamesCategoryTest">
+        <methods>
+          <include name="AllBingotest"/>
+          <include name="initLogs"/>
+          <include name="close"/>
+          <include name="initLogs"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Games.BingoGamesCategoryTest -->
+    </classes>
+  </test> <!-- GamesCategoryTest(failed) -->
+</suite> <!-- Failed suite [Games] -->

@@ -1,0 +1,12 @@
+<suite name="SupercasinoReDesign" >
+<listeners>
+    <listener class-name="TestUtil.CustomListener" />
+</listeners>
+  <suite-files>
+   <suite-file path="./Bingo_Core_SUITE.xml" />
+   <suite-file path="./Games.xml" />
+   <suite-file path="./Cashier.xml" />
+   
+   
+  </suite-files>
+</suite>
